@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b3f4edc17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <i class="fas fa-briefcase fa-2x" id="header-logo"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Here is how you can reach out to me</p>
+
+            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                <div class="text-fields">
+                    <input name="name" type="text" class="text-input name-input" placeholder="Name">
+                    <input name="subject" type="text" class="text-input subject-input" placeholder="Subject">
+                    <input name="email" type="email" class="text-input email-input" placeholder="Email Address">
+                    <input name="phone" type="text" class="text-input phone-input" placeholder="Phone Number">
+                    <textarea name="message" class="text-input message-input" placeholder="Enter Message"></textarea>
+
+                    <div class="my-2">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+                </div>
+                <button type='submit' class="btn-dark">Submit</button>
+            </form>    
+
+        </div>
+    </section>
+
+    <!-- Section B: Contact Info -->
+    <section id="contact-b" class="bg-dark py-2">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <h3>Email</h3>
+                    <p>sanyamjaino98@gmail.com</p>
+                </div>
+
+                <div>
+                    <i class="fas fa-phone fa-2x"></i>
+                    <h3>Phone</h3>
+                    <p>+91-9636704769</p>
+                </div>
+
+                <div>
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <h3>Address</h3>
+                    <p>Adinath Vila, Mahaveer Marg, Begun, 312023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section C: tagLine -->
+    <section id="contact-c" class="bg-main py-2">
+        <div class="container">
+            <h1>Let's start your next project</h1>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content">
+            <p>Copyright &copy; 2021, All Rights Reserved</p>
+            <div class="social">
+                <a href="https://twitter.com/sanyamsj" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/sanyam.jain.963871" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mic.scofield/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sanyam-jain-o98/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Script File -->
+    <script src="./index.js"></script>
+</body>
+</html>
