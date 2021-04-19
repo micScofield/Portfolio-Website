@@ -377,6 +377,13 @@ img {
     height: 75px; }
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
+  #contact-a .text-fields input,
+  #contact-a .text-fields textarea {
+    outline: none; }
+    #contact-a .text-fields input:focus,
+    #contact-a .text-fields textarea:focus {
+      background: #f4f4f4;
+      border: 1px solid #ffbc00; }
 
 #contact-a button[type='submit'] {
   width: 50%; }
