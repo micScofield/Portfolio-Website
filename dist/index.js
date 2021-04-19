@@ -1,6 +1,6 @@
 const headerLogo = document.getElementById('header-logo')
 headerLogo.addEventListener('click', () => {
-    location.href = '/dist/index.html'
+    location.href = '/index.html'
 })
 
 const item1 = document.getElementById('item1').addEventListener('click', () => {
