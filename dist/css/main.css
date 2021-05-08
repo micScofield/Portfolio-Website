@@ -464,6 +464,13 @@ img {
     grid-template-areas: 'bioImage' 'bio' 'aw1' 'aw2' 'aw3'; }
     #about-a .about-info .bio-image {
       transform: scale(1); }
+    #about-a .about-info .bio p {
+      padding: 1rem 2rem; }
+  #about-c .fa-js,
+  #about-c .fa-css3-alt,
+  #about-c .fa-react,
+  #about-c .fa-node {
+    font-size: 4rem; }
   #work-a .items {
     grid-template-columns: 1fr; }
   #contact-a .text-fields {

@@ -27,9 +27,9 @@ const item6 = document.getElementById('item6').addEventListener('click', () => {
     window.open('https://serene-perlman-5ac20c.netlify.app/', '_blank')
 })
 
-// const item7 = document.getElementById('item7').addEventListener('click', () => {
-//     window.open('https://juvoxa-react-table.web.app/', '_blank')
-// })
+const item7 = document.getElementById('item7').addEventListener('click', () => {
+    window.open('https://juvoxa-react-table.web.app/', '_blank')
+})
 
 const item8 = document.getElementById('item8').addEventListener('click', () => {
     window.open('https://photo-gallery-2528e.web.app/', '_blank')

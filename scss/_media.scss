@@ -98,6 +98,21 @@
                 .bio-image {
                     transform: scale(1);
                 }
+
+                .bio {
+                    p {
+                        padding: 1rem 2rem;
+                    }
+                }
+            }
+        }
+
+        &-c {
+            .fa-js,
+            .fa-css3-alt,
+            .fa-react,
+            .fa-node {
+                font-size: 4rem;
             }
         }
     }
