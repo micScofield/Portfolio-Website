@@ -34,3 +34,7 @@ const item7 = document.getElementById('item7').addEventListener('click', () => {
 const item8 = document.getElementById('item8').addEventListener('click', () => {
     window.open('https://photo-gallery-2528e.web.app/', '_blank')
 })
+
+const item9 = document.getElementById('item9').addEventListener('click', () => {
+    window.open('https://evening-ocean-63422.herokuapp.com/', '_blank')
+})
