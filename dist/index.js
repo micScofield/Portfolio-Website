@@ -38,3 +38,7 @@ const item8 = document.getElementById('item8').addEventListener('click', () => {
 const item9 = document.getElementById('item9').addEventListener('click', () => {
     window.open('https://evening-ocean-63422.herokuapp.com/', '_blank')
 })
+
+const item10 = document.getElementById('item10').addEventListener('click', () => {
+    window.open('https://nifty-visvesvaraya-8b8c0f.netlify.app/', '_blank')
+})
