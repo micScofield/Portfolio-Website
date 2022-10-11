@@ -42,3 +42,7 @@ const item9 = document.getElementById('item9').addEventListener('click', () => {
 const item10 = document.getElementById('item10').addEventListener('click', () => {
     window.open('https://nifty-visvesvaraya-8b8c0f.netlify.app/', '_blank')
 })
+
+const item11 = document.getElementById('item0').addEventListener('click', () => {
+    window.open('https://iridescent-trifle-96f3fa.netlify.app/', '_blank')
+})
