@@ -4,15 +4,11 @@ headerLogo.addEventListener('click', () => {
 })
 
 const item1 = document.getElementById('item1').addEventListener('click', () => {
-    window.open('https://afternoon-oasis-20652.herokuapp.com/', '_blank')
+    window.open('https://dev-connector20-production.up.railway.app/', '_blank')
 })
 
 const item2 = document.getElementById('item2').addEventListener('click', () => {
     window.open('https://react-my-burger-61bad.web.app/', '_blank')
-})
-
-const item3 = document.getElementById('item3').addEventListener('click', () => {
-    window.open('https://job-portal-f0633.web.app/', '_blank')
 })
 
 const item4 = document.getElementById('item4').addEventListener('click', () => {
